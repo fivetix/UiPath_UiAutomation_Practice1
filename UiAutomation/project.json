@@ -1,0 +1,60 @@
+{
+  "name": "TomerLahav_UIPractices1_ExtactInvoiceDetails",
+  "projectId": "b04b1cfa-fe30-4ab9-9da9-e5237c273d58",
+  "description": "Extracting inovice details - \r\n1.Reads an input Excel file with invoice numbers.\r\n2.Sign in to AMCE website.\r\n3.Navigates to invoice search page and search for invoice number per each invoice.\r\n4.Exctact each invoice detail and write it back in the Excel file. ",
+  "main": "TomerLahav_UIPractice1_ExtactInvoiceDetails.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.25.1-preview]",
+    "UiPath.System.Activities": "[25.2.1]",
+    "UiPath.UIAutomation.Activities": "[25.2.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.161.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "TomerLahav_UIPractice1_ExtactInvoiceDetails.xaml",
+      "uniqueId": "3fc7fc27-9b2a-483d-819a-4c2f0dc2057f",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
